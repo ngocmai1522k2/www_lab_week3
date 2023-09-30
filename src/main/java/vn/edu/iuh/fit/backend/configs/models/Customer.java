@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.models;
+package vn.edu.iuh.fit.backend.configs.models;
 
 import jakarta.persistence.*;
 
@@ -9,42 +9,23 @@ import java.util.List;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String cus_id;
+    private long cus_id;
+    @Column(length = 150, nullable = false)
     private String cus_name;
+    @Column(unique = true, length = 150)
     private String email;
+    @Column(length = 15, nullable = false)
     private String phone;
+    @Column(length = 250, nullable = false)
     private String address;
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "customer")
     private List<Order> orderList;
 
-    public Customer() {
-        super();
-    }
-
-    public Customer(String cus_id, String cus_name, String email, String phone, String address) {
-        this.cus_id = cus_id;
-        this.cus_name = cus_name;
-        this.email = email;
-        this.phone = phone;
-        this.address = address;
-    }
-
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "cus_id='" + cus_id + '\'' +
-                ", cus_name='" + cus_name + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                '}';
-    }
-
-    public String getCus_id() {
+    public long getCus_id() {
         return cus_id;
     }
 
-    public void setCus_id(String cus_id) {
+    public void setCus_id(long cus_id) {
         this.cus_id = cus_id;
     }
 
@@ -78,5 +59,13 @@ public class Customer {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        this.orderList = orderList;
     }
 }
