@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab23912-039a-4f36-b72f-088c850027f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/connection/ConnectionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/converters/ProductStatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/respositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/respositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/services/CustomerServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/services/ProductServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/frontend/controllers/ServletController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/frontend/model/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/frontend/model/ProductModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/MySessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/connection/MySessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/ProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/ProductImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/backend/configs/models/ProductPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eab23912-039a-4f36-b72f-088c850027f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,7 +272,7 @@
       <workItem from="1695985157173" duration="7067000" />
       <workItem from="1696043031328" duration="4754000" />
       <workItem from="1696258937961" duration="1996000" />
-      <workItem from="1696299632995" duration="28268000" />
+      <workItem from="1696299632995" duration="28678000" />
     </task>
     <task id="LOCAL-00001" summary="add models">
       <option name="closed" value="true" />
@@ -321,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696045922381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload insert new Customer successful and show allCustomers">
+      <option name="closed" value="true" />
+      <created>1696611154896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696611154896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +307,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add models" />
     <MESSAGE value="finished create database" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished create database" />
+    <MESSAGE value="upload insert new Customer successful and show allCustomers" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload insert new Customer successful and show allCustomers" />
   </component>
 </project>
