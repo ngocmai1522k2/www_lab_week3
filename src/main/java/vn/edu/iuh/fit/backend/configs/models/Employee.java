@@ -36,6 +36,14 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(String full_name, DateTime dob, String email, String phone, String address) {
+        this.full_name = full_name;
+        this.dob = dob;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+    }
+
     public Employee(long emp_id, String full_name, DateTime dob, String email, String phone, String address, EmployeeStatus status, List<Order> orderList) {
         this.emp_id = emp_id;
         this.full_name = full_name;

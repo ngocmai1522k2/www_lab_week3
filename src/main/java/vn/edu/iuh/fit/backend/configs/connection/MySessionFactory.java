@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.backend.configs;
+package vn.edu.iuh.fit.backend.configs.connection;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

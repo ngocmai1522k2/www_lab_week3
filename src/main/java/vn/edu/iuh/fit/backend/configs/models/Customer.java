@@ -6,6 +6,9 @@ import java.util.List;
 
 @Entity
 @Table(name = "customer")
+@NamedQueries({
+        @NamedQuery(name = "Customer.getAll", query = "select c from Customer c ")
+})
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,6 +23,37 @@ public class Customer {
     private String address;
     @OneToMany(mappedBy = "customer")
     private List<Order> orderList;
+
+    public Customer() {
+    }
+
+    public Customer(long cus_id, String cus_name, String email, String phone, String address, List<Order> orderList) {
+        this.cus_id = cus_id;
+        this.cus_name = cus_name;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+        this.orderList = orderList;
+    }
+
+    public Customer(String cus_name, String email, String phone, String address) {
+        this.cus_name = cus_name;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "cus_id=" + cus_id +
+                ", cus_name='" + cus_name + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
+                ", orderList=" + orderList +
+                '}';
+    }
 
     public long getCus_id() {
         return cus_id;
